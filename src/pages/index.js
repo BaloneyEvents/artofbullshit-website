@@ -1,20 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import Logo from "../components/logo"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <SEO title="Welcome" />
+    <p className="highlight">&ldquo;An insane combination of speaker training and improv comedy, the Art of Bullshit sets the bar so low that failure is the baseline.&rdquo;</p>
+    <p>We&lsquo;ve been away for a bit. But we&lsquo;re back! Come join us on February 19th at the Highlander Bar.</p>
   </Layout>
 )
 

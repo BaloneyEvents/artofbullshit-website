@@ -1,0 +1,25 @@
+header {
+  background: skyblue;
+  margin-bottom: 1.45rem;
+}
+
+header .container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+}
+
+header .container h1 {
+  width: 80%;
+  display: inline-block;
+}
+header .container h1 a {
+  color: black;
+  text-decoration: none;
+}
+
+header .container .logo {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}

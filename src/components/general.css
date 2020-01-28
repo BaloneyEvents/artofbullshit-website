@@ -1,0 +1,8 @@
+p.highlight {
+  font-size: 120%;
+  padding: 0.5em 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px skyblue;
+  background-color: skyblue;
+}
